@@ -1,7 +1,7 @@
 # Tourism Experience Analytics: Classification, Prediction, and Recommendation System
 
 ## Project Overview
-This project analyzes tourism data to provide personalized recommendations, predict user satisfaction, and classify potential user behavior. It leverages **Python, Power BI, and Streamlit** for data preprocessing, visualization, and interactive reporting.
+This project analyzes tourism data to provide personalized recommendations, predict user satisfaction, and classify potential user behavior. It leverages **Python and Streamlit** for data preprocessing, visualization, and interactive reporting.
 
 **Skills Gained:** Data Cleaning & Preprocessing, Exploratory Data Analysis (EDA), Data Visualization, SQL, Streamlit, Machine Learning (Regression, Classification, Recommendation).
 
@@ -42,20 +42,17 @@ Tourism agencies and travel platforms aim to enhance user experiences by leverag
 
 ## Run the Streamlit App
 
-
-
 1. Clone the repository:
-   ```bash
-   git clone https://github.com/YourUsername/Tourism-Analytics-Project.git
-   cd Tourism-Analytics-Project
-
-   
-
+```bash
+git clone https://github.com/Manjula1989/Tourism-Analytics-Project.git
+cd Tourism-Analytics-Project
 pip install -r requirements.txt
-
 streamlit run tourism_app.py
 
+
 http://localhost:8501
+
+Note: Large model files (e.g., rf_rating_model.pkl and rf_visitmode_model.pkl) are not included in this repository due to GitHub file size limits. You can generate them locally using the provided scripts (insights_charts.py or model training scripts).
 
 
 Tourism-Analytics-Project/
@@ -68,12 +65,4 @@ Tourism-Analytics-Project/
 └── other supporting files
 
 
-This version:
-
-- Clearly separates sections using Markdown headings.  
-- Lists commands step-by-step for running the app.  
-- Formats file structure in a readable way.  
-- Ensures `pip install -r requirements.txt` is correctly mentioned.  
-
-If you want, I can also add a **note about not including large model files** so anyone cloning won’t try to push big `.pkl` files to GitHub. Do you want me to add that?
 
